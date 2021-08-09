@@ -1,4 +1,4 @@
-# 🥞 Pancake UIkit
+# ZSwap UIkit
 
 **This repository is not used anymore. See the [https://github.com/pancakeswap/pancake-toolkit](Pancake toolkit) instead**
 
@@ -8,7 +8,7 @@ Pancake UIkit is a set of React components and hooks used to build pages on Panc
 
 ## Install
 
-`yarn add @pancakeswap-libs/uikit`
+`yarn add @zswap/uikit`
 
 ## Setup
 
@@ -18,7 +18,7 @@ Before using Pancake UIkit, you need to provide the theme file to styled-compone
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@pancakeswap-libs/uikit'
+import { light, dark } from '@zswap/uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
